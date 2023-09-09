@@ -108,8 +108,8 @@ mutating func compareUserPickAndComputerPick(_ userChoice: RockPaperScissorsChoi
 
  
 ### 2️⃣ Mutating
->* `Cannot assign to property: 'self' is immutable 오류`<br>
->`turn`속성을 수정했고 속성이 현재 객체의 속성으로 선언되어 있기 때문에 오류가 발생해서 값타입 내 메서드에는 수정을 할 수 없기떄문에 mutating키워드를 사용하여 오류를 해결할수 있었습니다.
+- `Cannot assign to property: 'self' is immutable 오류`
+  - `turn`속성을 수정했고 속성이 현재 객체의 속성으로 선언되어 있기 때문에 오류가 발생해서 값타입 내 메서드에는 수정을 할 수 없기떄문에 mutating키워드를 사용하여 오류를 해결할수 있었습니다.
 
 
 
@@ -167,11 +167,11 @@ mutating func compareUserPickAndComputerPick(_ userChoice: RockPaperScissorsChoi
 <br>
 
 ## 7. 팀 회고
-- 우리팀이 잘한점
+- 😄우리팀이 잘한 점
     - 시간을 정하고 계획과 코드를 짜는 부분에서 의견조율과 소통이 잘됐습니다.
      - 소통을 너무 잘해주셨고, 피드백을 잘해주셔서 프로젝트 진행에 차질없이 진행할수 있었습니다.
 
 <br>
 
-* 우리팀이 개선할 점
+- 😅우리팀이 개선할 점
     - 코드 컨벤셜을 꼼꼼히 확인하지 않고 커밋을 보내는 오류를 범해서 신중하게 커밋을 보내야할 필요가 있다고 생각했습니다.
